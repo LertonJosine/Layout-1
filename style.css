@@ -19,6 +19,7 @@ body {
     display: grid;
     grid-template-rows: max-content max-content max-content max-content;
     font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
 }
 
 header {
@@ -265,6 +266,12 @@ footer p{
         display: block;
         /* margin: auto; */
 
+    }
+    footer{
+        font-size: small;
+    }
+    body{
+        font-size: small;
     }
 }
 
